@@ -5,7 +5,7 @@
 | Tâche | Prévu | Fait le | Preuve |
 | --- | --- | --- | --- |
 | Poste et dépôt prêts ; besoin compris ; documents commencés | 2026-11-03 | 2026-11-03 | Mise en contexte et préparation de l'environnement de travail |
-| Fiche 2 : lire et écrire le JSON |  2026-11-03 | | |
+| Fiche 2 : lire et écrire le JSON |  2026-11-03 | 2026-11-03 | Implémentation des fonctions de lecture et d'écriture |
 | Fiche 3 : ajouter et lister ; choix 1 et 2 ; erreurs |  2026-11-03 | | |
 | Fiche 4 : rechercher et trier ; choix 3 et 4 |  2026-11-04 | | |
 | Fiche 5 : synthèse ; choix 5 |  2026-11-04  | | |

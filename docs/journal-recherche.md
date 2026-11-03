@@ -4,6 +4,6 @@
 
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 | --- | --- | --- | --- |
-| ✏️ | | | |
+| Manipulation des fichier JSON | Le cours<br>[GeeksForGeeks](https://www.geeksforgeeks.org/javascript/how-to-pretty-print-json-string-in-javascript/)| `await` permet de recevoir une promesse; <br>`JSON.parse()` permet de transformer un texte JSON en tableau JavaScript;<br>`JSON.stringify()` permet de transformer un tableau en texte JSON, et d'y ajouter une indentation  | .\src\stockage.js|
 | ✏️ | | | |
 | ✏️ | | | |
