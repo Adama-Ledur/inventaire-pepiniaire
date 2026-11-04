@@ -5,5 +5,10 @@
 | Ce que je cherchais | Où | Ce que j'ai compris | Utilisé dans |
 | --- | --- | --- | --- |
 | Manipulation des fichier JSON | Le cours<br>[GeeksForGeeks](https://www.geeksforgeeks.org/javascript/how-to-pretty-print-json-string-in-javascript/)| `await` permet de recevoir une promesse; <br>`JSON.parse()` permet de transformer un texte JSON en tableau JavaScript;<br>`JSON.stringify()` permet de transformer un tableau en texte JSON, et d'y ajouter une indentation  | .\src\stockage.js|
+| Méthodes des tableaux | [mdn](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/) | `join()` permet de rassembler les éléments en un texte, avec un séparateur. Elle renvoie une seule chaine de caractère où tous les élements du tableau sont joints par un séparateur défini<br>`some()` permet de vérifier qu'au moins un élement vérifie la condition. Elle renvoie `true` si au moins un élement remplissant la condition est trouvé, sinon `false` | .\src\registre.js |
+| Vérification du type d'un nombre | [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) | `Number.isInteger()` permet de vérifier qu'un nombre est un entier. Elle renvoie `true` si le nombre est entier et `false` s'il est négatif| .\src\registre.js |
+| Vérifier le signe d'un nombre | [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sign) | `Math.sign()` permet de verifier le signe d'un nombre. Elle renvoie 1 si le nombre est positif et -1 s'il est négatif | .\src\registre.js |
+| Changer la casse d'un texte | [mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)<br>[mdn](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase) | `toLowerCase()` permet de passer d'un texte en majuscule à un texte en miniscule<br>`toUpperCase()` permet de passer d'un texte en miniscule à un texte en majuscule | .\src\registre.js |
+| ✏️ | | | |
 | ✏️ | | | |
 | ✏️ | | | |
