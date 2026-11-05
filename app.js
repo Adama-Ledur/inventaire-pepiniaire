@@ -194,6 +194,7 @@ function listerRecherche(plants, option, ts) {
 
 };
 
+
 function listerTrie(plants, option) {
 
 	const liste = listerPlants(plants);
@@ -202,6 +203,30 @@ function listerTrie(plants, option) {
 
 };
 
+
+function afficherSynthese (plants) {
+
+	const nombreEspeces = plants.length ;
+	const nombreTotalPlants = totalPlants(plants);
+	const syntheseGroupe = syntheseParGroupe(plants);
+	const STOCK_FAIBLES = stocksFaibles(plants, SEUIL_STOCK_FAIBLE).map(plant => formaterPlant(plant));
+	const especePlusAbondante = formaterPlant(especeLaPlusAbondante(plants))
+
+	const synthese = [
+		'--- Synthèse de l\'inventaire ---',
+		`Nombre d'espèces : ${nombreEspeces}`,
+		`Stock total : ${nombreTotalPlants} plants`,
+		`Par groupe botanique :`,
+		`\tangiosperme : ${syntheseGroupe.angiosperme.especes} espèce(s), ${syntheseGroupe.angiosperme.plants} plants`,
+		`\tgymnosperme : ${syntheseGroupe.gymnosperme.especes} espèce(s), ${syntheseGroupe.gymnosperme.plants} plants`,
+		`Espèce la plus abondante : ${especePlusAbondante}`,
+		`Stocks faibles (≤ ${SEUIL_STOCK_FAIBLE} plants) : ${STOCK_FAIBLES.length}`,
+		`\t${STOCK_FAIBLES.join('\n\t')}`,
+		`Rappel : le seuil de ${SEUIL_STOCK_FAIBLE} plants est un repère pédagogique de suivi, pas une recommandation de production`
+	]
+
+	console.log(synthese.join('\n'));
+};
 
 
 // Une fonction pour demander à l'utilisateur d'entrer les informations
@@ -273,12 +298,11 @@ async function executerChoix (plants, choix) {
 				return true
 			};
 
-			console.log(listerTrie(trierParNombrePlants(plants)));
+			console.log( listerTrie( trierParNombrePlants(plants) ) );
 		break;
 
 		case '5' :
-			// todo
-			console.log('À compléter : …' );
+			afficherSynthese(plants);
 		break;
 
 		case '0' :
