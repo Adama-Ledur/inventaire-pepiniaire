@@ -8,9 +8,8 @@
 
 | Espèce de l'inventaire | Groupe | Critère de la fiche botanique | Observé (ou pas pu l'observer) |
 | --- | --- | --- | --- |
-| ✏️ | angiosperme | | |
-| ✏️ | gymnosperme | | |
+| Cacao | angiosperme | Présence de fleurs | Observée |
 
 **Le seuil de 10 plants dit-il qu'il faut produire davantage d'une espèce ?** ✏️
 
-Sources et origine des observations : ✏️ · Relu par le coach le : ✏️
+Sources et origine des observations : Fiche B - Plants · Relu par le coach le : ✏️

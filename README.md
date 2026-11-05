@@ -1,9 +1,7 @@
 # Inventaire de la pépinière
 
-> Projet individuel du SAS DFS, brief 2 (sujet : [SUJET.md](SUJET.md)). Remplacez chaque ✏️ par votre texte, puis supprimez cette ligne.
-
 ## Contexte
-
+<div align=justify>
 Cet outil est destiné au responsable d'une pépinière pédagogique. Son geste professionnel consiste à observer les étiquettes et les organes des plantes, à les classer, les compter et saisir l'origine du relevé. Son besoin est de structurer son inventaire et y appliquer une classification botanique (Angiosperme VS Gymnosperme) simple à partir d'une fiche de référence. Ce responsable veut pouvoir sélectionner une espèce, et en retour voire le groupe botanique auquel elle appartient ainsi que les quantités disponibles.
 <br>
 <br>
@@ -50,4 +48,7 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+**Adama KONATE, Adama-Ledur**<br>
+Entraide :
+Konan Anglovia Kouassi, dans la programmation du comportement de `app.js` face à un `Ctrl-C`.<br>
+Kamagaté Salia Abdallah : dans l'utilisation du kit fourni au niveau de `app.js`
