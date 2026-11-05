@@ -5,7 +5,7 @@
 Cet outil est destiné au responsable d'une pépinière pédagogique. Son geste professionnel consiste à observer les étiquettes et les organes des plantes, à les classer, les compter et saisir l'origine du relevé. Son besoin est de structurer son inventaire et y appliquer une classification botanique (Angiosperme VS Gymnosperme) simple à partir d'une fiche de référence. Ce responsable veut pouvoir sélectionner une espèce, et en retour voire le groupe botanique auquel elle appartient ainsi que les quantités disponibles.
 <br>
 <br>
-Cet outil permettra à ce responsable de lister les plants de l'inventaire et d'en ajouter de nouveaux, de les rechercher et les trier selon plusieurs critères (id, nom, groupe, nombre). Il permettra aussi de faire une synthèse présentant les quantités, l'abondance et le stock des différentes espèces. Cet outil ne permet ni d'enregistrer les sorties de plants de la pépinière ni d'évaluer les ventes de plants. Il ne permet pas non plus d'évaluer la rentabilité de la pépinière.
+Cet outil permettra à ce responsable de lister les plants de l'inventaire et d'en ajouter de nouveaux, de les rechercher et les trier selon plusieurs critères (id, nom, groupe, nombre). Il permettra aussi de faire une synthèse présentant les quantités, l'abondance et le stock des différentes espèces. L'outil ne dispose actuellement d'aucune interface graphique. D'autre par il ne permet ni d'enregistrer les sorties de plants de la pépinière ni d'évaluer les ventes de plants. Il ne permet pas non plus d'évaluer la rentabilité de la pépinière.
 </div>
 
 ## Prérequis et lancement
